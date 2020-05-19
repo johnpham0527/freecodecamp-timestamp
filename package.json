@@ -1,0 +1,25 @@
+{
+  "name": "freecodecamp-timestamp",
+  "version": "1.0.0",
+  "description": "This is an API project. It is a timestamp microservice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpham0527/freecodecamp-timestamp.git"
+  },
+  "keywords": [
+    "API",
+    "timestamp",
+    "freecodecamp",
+    "microservice"
+  ],
+  "author": "John Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpham0527/freecodecamp-timestamp/issues"
+  },
+  "homepage": "https://github.com/johnpham0527/freecodecamp-timestamp#readme"
+}
