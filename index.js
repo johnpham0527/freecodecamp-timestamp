@@ -9,8 +9,8 @@ app.get("/api/timestamp", (req, res) => { // this route handles the case where n
     let date = new Date(); // find the current date and time 
 
     res.send({
-        "unix": date.getTime(),
-        "utc": date.toUTCString()
+        "unix": date.getTime(), // returns the current date's Unix timestamp 
+        "utc": date.toUTCString() // returns the current date's UTC string
     });
 })
 
