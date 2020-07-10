@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
 
-const isValidDate = (date) => {
+const isValidDate = (date) => { // verifies if the given date is valid
     return date instanceof Date && !isNaN(date);
 }
 
-app.get("/api/timestamp", (req, res) => {
-    let date = new Date();
+app.get("/api/timestamp", (req, res) => { // this route handles the case where no date is given 
+    let date = new Date(); // find the current date and time 
 
     res.send({
         "unix": date.getTime(),
