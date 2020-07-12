@@ -4,7 +4,7 @@
   "description": "This is an API project. It is a timestamp microservice.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
